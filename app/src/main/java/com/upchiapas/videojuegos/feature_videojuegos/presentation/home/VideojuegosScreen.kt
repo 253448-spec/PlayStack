@@ -44,7 +44,7 @@ fun VideojuegosScreen(
                 title = {
                     Column {
                         Text(
-                            text = "Mi Colección",
+                            text = "PlayStack",
                             style = MaterialTheme.typography.titleLarge,
                             fontWeight = FontWeight.Bold
                         )
@@ -141,7 +141,7 @@ fun VideojuegosScreen(
                         )
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
-                            text = "¡Presiona el botón + para registrar tu primer juego en la colección!",
+                            text = "¡Presiona + para apilar tu primer juego!",
                             style = MaterialTheme.typography.bodyMedium,
                             textAlign = TextAlign.Center,
                             color = MaterialTheme.colorScheme.onSurfaceVariant

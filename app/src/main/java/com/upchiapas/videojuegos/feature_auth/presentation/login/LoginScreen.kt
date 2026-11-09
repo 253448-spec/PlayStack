@@ -56,14 +56,14 @@ fun LoginScreen(
                 )
 
                 Text(
-                    text = "GameVault",
+                    text = "PlayStack",
                     style = MaterialTheme.typography.headlineLarge,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary
                 )
 
                 Text(
-                    text = "Inicia sesión para gestionar tus videojuegos",
+                    text = "Inicia sesión para gestionar tu colección",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )

@@ -12,8 +12,8 @@ SECRET_KEY = "mi_clave_secreta_super_segura_upchiapas_2026"
 ALGORITHM = "HS256"
 
 app = FastAPI(
-    title="API de Videojuegos - Proyecto Unidad 3",
-    description="API REST con autenticación JWT y CRUD para la app móvil en Kotlin Jetpack Compose",
+    title="PlayStack API - Proyecto Unidad 3",
+    description="API REST con autenticación JWT y CRUD de videojuegos para app móvil Android con Kotlin Jetpack Compose",
     version="1.0.0"
 )
 
