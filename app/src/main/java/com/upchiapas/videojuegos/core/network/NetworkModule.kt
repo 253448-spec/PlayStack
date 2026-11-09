@@ -14,18 +14,7 @@ import java.util.concurrent.TimeUnit
 object NetworkModule {
 
     fun determineBaseUrl(): String {
-        // En emulador se usa 10.0.2.2, en celular físico por USB con adb reverse se usa 127.0.0.1 (o IP de red)
-        val isEmulator = Build.FINGERPRINT.startsWith("generic") ||
-                Build.MODEL.contains("google_sdk") ||
-                Build.MODEL.contains("Emulator") ||
-                Build.HARDWARE.contains("goldfish") ||
-                Build.HARDWARE.contains("ranchu")
-
-        return if (isEmulator) {
-            "http://10.0.2.2:8000/"
-        } else {
-            "http://127.0.0.1:8000/"
-        }
+        return BuildConfig.BASE_URL
     }
 
     fun provideJson(): Json = Json {
